@@ -1,0 +1,134 @@
+<KhanyaCache xmlns="http://AlexanderForbes.Integration_v2.Schemas.KhanyaCache">
+  <membership>
+    <OBJECTNAME>Membership</OBJECTNAME>
+    <ID>308916</ID>
+    <COMPANYREFERENCE>00AF2008</COMPANYREFERENCE>
+    <ACCOUNTSTATUS>Active Member</ACCOUNTSTATUS>
+    <ACCOUNTSTATUSDATE>2003-06-01T00:00:00+02:00</ACCOUNTSTATUSDATE>
+    <DATEEMPLOYED>2003-06-01T00:00:00+02:00</DATEEMPLOYED>
+    <DATEJOINED>2003-06-01T00:00:00+02:00</DATEJOINED>
+    <PENSIONABLESERVICEDATE>2003-06-01T00:00:00+02:00</PENSIONABLESERVICEDATE>
+    <NORMALRETIREMENTDATE>2037-05-31T00:00:00+02:00</NORMALRETIREMENTDATE>
+    <CONT_NO>AFONLINE</CONT_NO>
+    <ANNUALPENSSALARY>658000</ANNUALPENSSALARY>
+    <AMTPREVTAXED>0</AMTPREVTAXED>
+    <RETCONTRATE>7.50</RETCONTRATE>
+    <BALANCEDATE>2017-08-14T14:25:40+02:00</BALANCEDATE>
+  </membership>
+  <tax>
+    <OBJECTNAME>Tax</OBJECTNAME>
+    <OFFICE>Johannesburg Receiver of Revenue</OFFICE>
+    <AUTHORITY>South Africa</AUTHORITY>
+  </tax>
+  <billinggroup>
+    <OBJECTNAME>BillingGroup</OBJECTNAME>
+    <CODE>1472</CODE>
+    <NAME>01 AF</NAME>
+    <EFFECTIVEDATE>2003-06-01T00:00:00+02:00</EFFECTIVEDATE>
+  </billinggroup>
+  <fundcredit>
+    <OBJECTNAME>Fundcredit</OBJECTNAME>
+    <SCHEMEID>1469</SCHEMEID>
+    <CURRENTFUNDCREDIT>429254.09</CURRENTFUNDCREDIT>
+    <UNITS>0</UNITS>
+    <PORTFOLIONAME>Pending Claim</PORTFOLIONAME>
+    <FD_DESC_ID>CLPF</FD_DESC_ID>
+  </fundcredit>
+  <exitclaim>
+    <OBJECTNAME>ExitClaim</OBJECTNAME>
+  </exitclaim>
+  <withdrawal>
+    <OBJECTNAME>Withdrawal</OBJECTNAME>
+  </withdrawal>
+  <retirement>
+    <OBJECTNAME>Retirement</OBJECTNAME>
+  </retirement>
+  <death>
+    <OBJECTNAME>Death</OBJECTNAME>
+  </death>
+  <narrative>
+    <OBJECTNAME>Narrative</OBJECTNAME>
+    <NDATE>2014-07-09T00:00:00+02:00</NDATE>
+    <TYPECODE>5</TYPECODE>
+    <TYPEDESCRIPT>Retirement Claims</TYPEDESCRIPT>
+    <SOURCECODE>0</SOURCECODE>
+    <SOURCEDESCRIPT>Not Applicable</SOURCEDESCRIPT>
+    <NARRATIVECODE>54</NARRATIVECODE>
+    <NARRATIVEDESCRIPT>Claim Receipt Date</NARRATIVEDESCRIPT>
+    <STATUSCD>1</STATUSCD>
+    <STATUSDESCRIPT>Finalised</STATUSDESCRIPT>
+    <MESSAGE>Death - Advance Payment - NO - claim given to business 10/07/2014</MESSAGE>
+  </narrative>
+  <narrative>
+    <OBJECTNAME>Narrative</OBJECTNAME>
+    <NDATE>2014-09-17T00:00:00+02:00</NDATE>
+    <TYPECODE>6</TYPECODE>
+    <TYPEDESCRIPT>Withdrawal Claims</TYPEDESCRIPT>
+    <SOURCECODE>6</SOURCECODE>
+    <SOURCEDESCRIPT>Broker Queries</SOURCEDESCRIPT>
+    <NARRATIVECODE>B2</NARRATIVECODE>
+    <NARRATIVEDESCRIPT>Requested Recognition of Transfer form</NARRATIVEDESCRIPT>
+    <STATUSCD>2</STATUSCD>
+    <STATUSDESCRIPT>Pending</STATUSDESCRIPT>
+    <MESSAGE>Transfer Occurred for TXDI_KEY - 1221073 on 17/09/2014</MESSAGE>
+  </narrative>
+  <narrative>
+    <OBJECTNAME>Narrative</OBJECTNAME>
+    <NDATE>2014-09-17T00:00:00+02:00</NDATE>
+    <TYPECODE>6</TYPECODE>
+    <TYPEDESCRIPT>Withdrawal Claims</TYPEDESCRIPT>
+    <SOURCECODE>0</SOURCECODE>
+    <SOURCEDESCRIPT>Not Applicable</SOURCEDESCRIPT>
+    <NARRATIVECODE>B9</NARRATIVECODE>
+    <NARRATIVEDESCRIPT>Tax Directive received from SARS</NARRATIVEDESCRIPT>
+    <STATUSCD>1</STATUSCD>
+    <STATUSDESCRIPT>Finalised</STATUSDESCRIPT>
+  </narrative>
+  <paymentuser>
+    <OBJECTNAME>PaymentUser</OBJECTNAME>
+  </paymentuser>
+  <paymentstatus>
+    <OBJECTNAME>PaymentStatus</OBJECTNAME>
+  </paymentstatus>
+  <address>
+    <OBJECTNAME>Address</OBJECTNAME>
+    <ATYPE>Residential</ATYPE>
+    <LINE1>33</LINE1>
+    <LINE2>w</LINE2>
+    <SUBURB>w</SUBURB>
+    <CITY>w</CITY>
+    <COUNTRY>South Africa </COUNTRY>
+    <POSTALCODE>0122</POSTALCODE>
+  </address>
+  <address>
+    <OBJECTNAME>Address</OBJECTNAME>
+    <ATYPE>Postal</ATYPE>
+    <LINE1>1</LINE1>
+    <LINE2>1</LINE2>
+    <SUBURB>1</SUBURB>
+    <CITY>1</CITY>
+    <COUNTRY>1</COUNTRY>
+    <POSTALCODE>1111</POSTALCODE>
+  </address>
+  <groupschemebenefits>
+    <OBJECTNAME>GroupSchemeBenefits</OBJECTNAME>
+    <GLA>0</GLA>
+    <PHI>0</PHI>
+    <FCL>0</FCL>
+  </groupschemebenefits>
+  <retirementcontributions>
+    <OBJECTNAME>RetirementContributions</OBJECTNAME>
+    <TYPE>AVC</TYPE>
+    <AMOUNT>0</AMOUNT>
+  </retirementcontributions>
+  <retirementcontributions>
+    <OBJECTNAME>RetirementContributions</OBJECTNAME>
+    <TYPE>Employer</TYPE>
+    <AMOUNT>0</AMOUNT>
+  </retirementcontributions>
+  <retirementcontributions>
+    <OBJECTNAME>RetirementContributions</OBJECTNAME>
+    <TYPE>Member</TYPE>
+    <AMOUNT>0</AMOUNT>
+  </retirementcontributions>
+</KhanyaCache>

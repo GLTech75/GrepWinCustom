@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="yes"?>
+<CommandSet xmlns="http://alexanderforbes.com/Integration/CommandSet.xsd">
+  <Command>
+    <ObjectName />
+    <CommandText>ACBVAL</CommandText>
+    <CollaborationID>5f8eb8ab-da47-45ef-ae45-7536c37d9f7e</CollaborationID>
+    <Timeout>120</Timeout>
+    <CommandExecutionType>4</CommandExecutionType>
+    <Parameters>
+      <Name>BANKACCNO</Name>
+      <Value>12345678</Value>
+      <DataType>0</DataType>
+    </Parameters>
+    <Parameters>
+      <Name>BANKACCTYP</Name>
+      <Value>1</Value>
+      <DataType>0</DataType>
+    </Parameters>
+    <Parameters>
+      <Name>BANKBRANCH</Name>
+      <Value>011545</Value>
+      <DataType>0</DataType>
+    </Parameters>
+  </Command>
+  <TokenData>
+    <IntegrationSystem>1</IntegrationSystem>
+    <Data>AFH0POWERZONE 000000000000000LIVE</Data>
+  </TokenData>
+  <QueryInfo>
+    <Level>0</Level>
+  </QueryInfo>
+</CommandSet>
